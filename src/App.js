@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App bg-neutral-200">
         <Navbar />
         <Hero />
         <Projects />

@@ -9,13 +9,13 @@ import { ThisIsStatusAuth } from "./ThisIsStatusAuth";
 function Navbar(){
     const [isOpen, setIsOpen] = useState(false);
     return(
-            <nav className="bg-gray-800">
+            <nav className="bg-indigo-400">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
                                 <img
-                                className="h-8 w-8"
+                                className="h-10 w-10"
                                 src="https://firebasestorage.googleapis.com/v0/b/myresume-d58e8.appspot.com/o/pp%2Fprofile-pic.png?alt=media&token=a69d3b47-3248-4d30-ae3a-87576b5aa947"
                                 alt="Me"
                                 />
@@ -27,9 +27,9 @@ function Navbar(){
                         </div>
                     </div>
                     <div className="-mr-2 flex md:hidden">
-                    <h1>authentification</h1>
+                    {/* <h1>authentification</h1> */}
                     <div id="firebaseui-auth-container"></div>
-                    <div id="loader">Loading...</div>
+                    {/* <div id="loader">Loading...</div> */}
                     <button
                         onClick={() => setIsOpen(!isOpen)}
                         type="button"
@@ -94,13 +94,13 @@ function Navbar(){
                         >
                         <Link to="/login">Login</Link>
                         </a>
-
+{/* 
                         <a
                         href="#"
                         className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                         >
                        <Link to="/register">Register</Link>
-                        </a>                      
+                        </a>                       */}
                         
                     </div>
                     </div>

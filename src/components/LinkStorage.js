@@ -30,8 +30,8 @@ export class LinkStorage extends Component{
         }
 
         return(
-            <div>
-                <a className="text-2xl bg-blue-300 rounded-xl py-4 px-8" id="linkDownloadCv" href={downloadURL} target="_blank">
+            <div className="m-auto"	>
+                <a className="text-2xl bg-indigo-400 rounded-xl py-4 px-8" id="linkDownloadCv" href={downloadURL} target="_blank">
                     Télécharger le CV
                 </a>
             </div>

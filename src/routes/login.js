@@ -16,7 +16,7 @@ export default function Login(){
             <StyledFirebaseAuth 
                 uiConfig={configUi}
                 firebaseAuth={firebase.auth()}
-            />
+            />   
         </div>
         
     )
