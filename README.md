@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `Demo web site :`
+
+https://myresume-d58e8.web.app/
+
 ### `npm start`
 
 Runs the app in the development mode.\
