@@ -5,7 +5,7 @@ import {getStorage, ref, getDownloadURL} from 'firebase/storage'
 export class LinkStorage extends Component{
 
     state = {
-        downloadURL: '#'
+        downloadURL: 'https://firebasestorage.googleapis.com/v0/b/myresume-d58e8.appspot.com/o/resume%2FCV_Lucas_Hochart2022.pdf?alt=media&token=92551a3a-2e04-4cdc-84cf-522f9bc25001'
     }
 
     setUrl = (url) => {
@@ -31,7 +31,7 @@ export class LinkStorage extends Component{
 
         return(
             <div>
-                <a className="text-2xl bg-blue-300 rounded-xl py-4 px-8" id="linkDownloadCv" href="https://firebasestorage.googleapis.com/v0/b/myresume-d58e8.appspot.com/o/resume%2FCV_Lucas_Hochart2022.pdf?alt=media&token=92551a3a-2e04-4cdc-84cf-522f9bc25001" target="_blank">
+                <a className="text-2xl bg-blue-300 rounded-xl py-4 px-8" id="linkDownloadCv" href={downloadURL} target="_blank">
                     Télécharger le CV
                 </a>
             </div>

@@ -17,7 +17,6 @@ export default function Login(){
                 uiConfig={configUi}
                 firebaseAuth={firebase.auth()}
             />
-            
         </div>
         
     )

@@ -9,7 +9,7 @@ function Projects(){
         const getProjectsFromFirebase = [];
 
         const myPoject = db
-        .collection("projets")
+        .collection("projects")
         .onSnapshot((querySnapshot) => {
             querySnapshot.forEach((doc) => {
             getProjectsFromFirebase.push({
@@ -37,7 +37,7 @@ function Projects(){
                         <h4 className="text-2xl p-2 font-bold">{project.name}</h4>
                         <h6 className="text-xl p-2 font-light">{project.tag}</h6>
                         <p className="p-2">{project.description}</p>
-                        <a className="bg-blue-300 rounded-3xl py-2 px-4" href={project.github} target="_blank">Voir plus</a>
+                        <a className="bg-blue-300 rounded-3xl py-2 px-4" href={project.github} rel="noreferrer" target="_blank">Voir plus</a>
                     </div>
                 )
                 ) : (

@@ -31,15 +31,6 @@ function App() {
         <Navbar />
         <Hero />
         <Projects />
-        {/* <div className='bg-navy-500'>
-          <h2 className='text-2xl'>Faites moi parvenir votre offre ci dessous !</h2>
-        </div>
-          <center>
-            <input type="file" className='mt-8'
-            onChange={(e) => { setImage(e.target.files[0]) }} />
-            <br /><button className='bg-blue-400 py-4 px-8 rounded-md mt-12' onClick={upload}>Envoyer</button>
-            <br />
-          </center> */}
     </div>
   );
 }
