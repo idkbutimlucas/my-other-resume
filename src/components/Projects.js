@@ -35,11 +35,11 @@ function Projects(){
                 <div className="flex flex-wrap  ">
                     {projects.length > 0 ? (
                         projects.map((project) => 
-                        <div className="border-2 bg-zinc-500 m-8 p-4 rounded-xl w-1/5 ">
+                        <div className="border-2 bg-indigo-400  m-8 p-4 rounded-xl w-1/5 ">
                             <h4 className="text-2xl p-2 font-bold">{project.name}</h4>
                             <h6 className="text-xl p-2 font-light">{project.tag}</h6>
                             <p className="p-2">{project.description}</p>
-                            <a className="bg-indigo-400  rounded-3xl py-2 px-4" href={project.github} rel="noreferrer" target="_blank">Voir plus</a>
+                            <a className="bg-zinc-200  rounded-3xl py-2 px-4" href={project.github} rel="noreferrer" target="_blank">Voir plus</a>
                         </div>
                     )
                     ) : (
