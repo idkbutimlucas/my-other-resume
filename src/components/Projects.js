@@ -35,7 +35,7 @@ function Projects(){
                 <div className="flex flex-wrap  ">
                     {projects.length > 0 ? (
                         projects.map((project) => 
-                        <div className="border-2 bg-indigo-400  m-8 p-4 rounded-xl w-1/5 ">
+                        <div className="border-2 bg-indigo-400  m-8 p-4 rounded-xl lg:w-1/5 sm:w-1/2 w-64">
                             <h4 className="text-2xl p-2 font-bold">{project.name}</h4>
                             <h6 className="text-xl p-2 font-light">{project.tag}</h6>
                             <p className="p-2">{project.description}</p>
